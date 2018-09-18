@@ -1,0 +1,15 @@
+{
+  "name": "@ligorikus/similar",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+	"install": "yum install xorg-x11-server-Xvfb",
+    "serve": "./install.sh",
+    "scrapy": "node index.js"
+  },
+  "dependencies": {
+    "segmentio/nightmare": "*"
+  },
+  "author": "", "license": "ISC"
+}
